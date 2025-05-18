@@ -1,0 +1,90 @@
+     
+header {
+    position: relative;
+    background-color: #1f1f1f;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+nav {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-align: right;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4caf50;
+}
+table, tr, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.container {
+  background-color: bisque;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  align-items: start;
+  width: 90%;
+  margin: auto;
+  padding: 20px; 
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+img {
+  height: auto;
+
+}
+
+.text {
+  grid-column: 1 / 2;
+}
+
+.img {
+  grid-column: 2 / 3;
+}
+
+body {
+  background-image: url(https://www.rizalparkhotelmanila.com/img/rizal/attractions/lg/luneta_park_lg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
